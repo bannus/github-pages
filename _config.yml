@@ -1,0 +1,36 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               bann.us
+tagline:             # none
+url:                 http://bann.us
+paginate:            1
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Bannus Van der Kloot
+  url:               https://bann.us/
+  email:             bannusvdk@gmail.com
+
+pages_list:       
+  About:             '/about'
+  Archive:           '/archive'
+
+analytics-id:        UA-39272459-3
+
+
+# Custom vars
+github:
+  repo:              https://github.com/bannus/bannus.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
