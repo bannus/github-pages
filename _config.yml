@@ -34,3 +34,8 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
